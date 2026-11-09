@@ -1,0 +1,31 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Logs & temp ----
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+
+# ---- Node ----
+node_modules/
+!package-lock.json
+
+# ---- Env & local data ----
+.env
+*.env.local
+server/.env
+client/.env
+client/dist/
+server/dev-outbox/
+server/.mongo-binaries/
+server/coverage/
+*.local
